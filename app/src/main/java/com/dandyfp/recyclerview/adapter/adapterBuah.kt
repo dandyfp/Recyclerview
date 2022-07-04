@@ -2,24 +2,22 @@ package com.dandyfp.recyclerview.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.dandyfp.recyclerview.databinding.ListItemPemainBinding
-import com.dandyfp.recyclerview.model.pemain
-import java.security.AccessControlContext
+import com.dandyfp.recyclerview.databinding.ListItemBuahBinding
+import com.dandyfp.recyclerview.model.buah
 
-class adapterTeamBola
+class adapterBuah
     (private val context : Context,
-     private var data  : List<pemain>?,
-     private val itemclick:OnClickListener) : RecyclerView.Adapter<adapterTeamBola.ViewHolder>() {
+     private var data  : List<buah>?,
+     private val itemclick:OnClickListener) : RecyclerView.Adapter<adapterBuah.ViewHolder>() {
 
 
 
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val binding = ListItemPemainBinding.inflate(LayoutInflater.from(parent.context),parent,false)
+        val binding = ListItemBuahBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         return  ViewHolder(binding)
     }
 
@@ -35,12 +33,12 @@ class adapterTeamBola
 
     override fun getItemCount(): Int = data?.size?:0
 
-    inner class ViewHolder(val binding : ListItemPemainBinding) : RecyclerView.ViewHolder(binding.root){
+    inner class ViewHolder(val binding : ListItemBuahBinding) : RecyclerView.ViewHolder(binding.root){
         var  foto = binding.image
         var nama = binding.txtnama
 
     }
     interface OnClickListener{
-        fun detailData(item : pemain?)
+        fun detailData(item : buah?)
     }
 }

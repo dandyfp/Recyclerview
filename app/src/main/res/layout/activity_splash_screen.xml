@@ -10,14 +10,14 @@
         android:id="@+id/logosplash"
         android:layout_width="190dp"
         android:layout_height="190dp"
-        android:src="@drawable/realmadrid"
+        android:src="@drawable/buahbuahan"
         android:layout_centerInParent="true"
         />
     <TextView
         android:id="@+id/txtapplicationname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RealMadrid FC ver.01"
+        android:text="Daftar Buah ver.01"
         android:layout_below="@id/logosplash"
         android:layout_centerInParent="true"
         android:layout_marginTop="4dp"

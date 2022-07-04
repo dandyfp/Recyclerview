@@ -7,7 +7,7 @@
     >
 
     <ImageView
-        android:id="@+id/image_pemain"
+        android:id="@+id/image_buah"
         android:layout_width="match_parent"
         android:layout_height="495dp"
         android:layout_gravity="center"
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:text="Data Pribadi"
+        android:text="Profil Data"
         android:drawablePadding="5dp"
         android:padding="5dp"
         android:textAlignment="center"
@@ -40,10 +40,10 @@
                 android:text="Nama : "/>
 
             <TextView
-                android:id="@+id/txtNamaPemain"
+                android:id="@+id/txtNamaBuah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RONALDO "
+                android:text="APEL "
                 android:textColor="#000000"/>
     </LinearLayout>
 
@@ -57,75 +57,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tempat lahir : "/>
+            android:text="Warna Kulit : "/>
 
         <TextView
-            android:id="@+id/txtTempatLahir"
+            android:id="@+id/txtwarnaKulit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Portugal"
             android:textColor="#000000"/>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tanggal lahir : "/>
-
-        <TextView
-            android:id="@+id/txtTanggalLahir"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="gatau "
-            android:textColor="#000000"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Posisi : "/>
-
-        <TextView
-            android:id="@+id/txtPosisi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nama : "
-            android:textColor="#000000"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tinggi Badan : "/>
-
-        <TextView
-            android:id="@+id/txtTinggi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nama : "
-            android:textColor="#000000"/>
-    </LinearLayout>
     <Button
         android:id="@+id/btnClose"
         android:layout_width="match_parent"
