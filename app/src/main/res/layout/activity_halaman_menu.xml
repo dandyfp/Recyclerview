@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halamanMenu"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50dp"
+    >
+
+    <TextView
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HALAMAN MENU" />
+
+
+    <TextView
+        android:id="@+id/txtUserNamE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usename"
+        android:textSize="18sp"
+        android:layout_marginTop="100sp"
+        />
+    <TextView
+        android:id="@+id/txtPasswOrd"
+        android:text="Password"
+        android:layout_marginTop="120sp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Buah"
+        android:layout_marginTop="150sp"
+
+        />
+
+
+
+</RelativeLayout>

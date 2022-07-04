@@ -10,8 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recyclerview">
         <activity
+            android:name=".halamanMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Login1"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".splashScreen"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
